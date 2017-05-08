@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Ubuntu');
+
 html,body{
 	margin: 0;
 	padding: 0;
 }
 #myName{
-	font-family: Arial;
+	font-family: "Ubuntu";
+	font-weight: 600;
+	text-shadow: 1px 1px 1px #202020;
 }
 #portrait{
 	margin-left: auto;
@@ -18,4 +22,11 @@ html,body{
 	height: 250px;
 	padding-top: 75px;
 	text-align: center;
+}
+#projectTitle{
+	font-family: "Dosis";
+}
+#projectDescription{
+	font-family: Arial;
+	font-size: 20px;
 }
